@@ -1,0 +1,91 @@
+header{
+    /* overflow: hidden; */
+    padding-top: 7rem;
+    height: 100vh;
+}
+
+.header__container{
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+.avatar{
+    width: 100%;
+    height: 100%;
+}
+
+.cta{
+    margin-top: 2.5rem;
+    justify-content: center;
+    gap: 1.2rem;
+    display: flex;
+}
+
+.header__social{
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    display: flex;
+    left: 0;
+    bottom: 3rem;
+    font-size: 1.5rem;
+}
+
+.header__social::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
+}
+
+.header__container .me{
+    width: 22rem;
+    height: 25rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 7rem;
+    /* overflow: hidden; */
+}
+
+
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/*  ===============================  Media Query Selectors (MEDIUM) ================================*/
+
+@media screen and (max-width: 1024px){
+  header{
+    height: 100vh;
+
+  }
+  .header__container .me{
+    width: 20rem;
+    height: 20rem;
+}
+  
+}
+
+/*  ===============================  Media Query Selectors (SMALL) ================================*/
+
+@media screen and (max-width: 600px){
+   header{
+    height: 100vh;
+   }
+   .header__social,
+   .scroll__down{
+    display: none;
+   }
+}
+@media screen and (min-width: 320px) and (max-width: 600px){
+    .header__container .me{
+        width: 20rem;
+        height: 20rem;
+    }
+}

@@ -1,0 +1,318 @@
+.html{
+    color: #f67300;
+    font-size: 2rem;
+}
+.css{
+    color: #0022f6;
+    font-size: 2rem;
+}
+.sass{
+    color: #f600d8;
+    font-size: 2rem;
+}
+.js{
+    color: #ecf600;
+    font-size: 2rem;
+}
+.jquery{
+    color: #0079f6;
+    font-size: 2rem;
+}
+.bootstrap{
+    color: rgb(185,62,255);
+    font-size: 2rem;
+}
+.tailwind{
+    color: #00a29b;
+    font-size: 2rem;
+}
+.react{
+    color: #13fff5;
+    font-size: 2rem;
+}
+.gulp{
+    color: #ff412d;
+    font-size: 2rem;
+}
+.git{
+    color: #000f10;
+    font-size: 2rem;
+}
+.node,
+.mongo{
+    color: #16a000;
+    font-size: 2rem;
+}
+.json{
+    color: #e8ed03;
+    font-size: 2rem;
+}
+.bem{
+    color: #0079f6;
+    font-size: 2rem;
+}
+
+.experience__container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.experience__container > div{
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.experience__container > div:hover{
+    background: transparent;
+    border-color: var(--color-bg-variant);
+    box-shadow: 0 0 20px var(--color-bg-variant);
+    cursor: default;
+}
+.experience__container > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+.experience__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2rem;
+    justify-items: center;
+}
+.experience__details{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.section__html{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: html 2000ms infinite;
+    -moz-animation: html 2000ms infinite;
+    -o-animation: html 2000ms infinite;
+    animation: html 2000ms infinite;
+}
+.section__css{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: css 2000ms infinite;
+    -moz-animation: css 2000ms infinite;
+    -o-animation: css 2000ms infinite;
+    animation: css 2000ms infinite;
+}
+.section__sass{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: sass 2000ms infinite;
+    -moz-animation: sass 2000ms infinite;
+    -o-animation: sass 2000ms infinite;
+    animation: sass 2000ms infinite;
+}
+.section__js{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: js 2000ms infinite;
+    -moz-animation: js 2000ms infinite;
+    -o-animation: js 2000ms infinite;
+    animation: js 2000ms infinite;
+}
+.section__jquery{
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 10px 10px #0079f6;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: jquery 2000ms infinite;
+    -moz-animation: jquery 2000ms infinite;
+    -o-animation: jquery 2000ms infinite;
+    animation: jquery 2000ms infinite;
+}
+.section__bootstrap{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: bootstrap 2000ms infinite;
+    -moz-animation: bootstrap 2000ms infinite;
+    -o-animation: bootstrap 2000ms infinite;
+    animation: bootstrap 2000ms infinite;
+}
+.section__tailwind{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: tailwind 2000ms infinite;
+    -moz-animation: tailwind 2000ms infinite;
+    -o-animation: tailwind 2000ms infinite;
+    animation: tailwind 2000ms infinite;
+}
+.section__react{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: react 2000ms infinite;
+    -moz-animation: react 2000ms infinite;
+    -o-animation: react 2000ms infinite;
+    animation: react 2000ms infinite;
+}
+.section__gulp{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: gulp 2000ms infinite;
+    -moz-animation: gulp 2000ms infinite;
+    -o-animation: gulp 2000ms infinite;
+    animation: gulp 2000ms infinite;
+}
+.section__git{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: git 2000ms infinite;
+    -moz-animation: git 2000ms infinite;
+    -o-animation: git 2000ms infinite;
+    animation: git 2000ms infinite;
+}
+.section__node{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: node 2000ms infinite;
+    -moz-animation: node 2000ms infinite;
+    -o-animation: node 2000ms infinite;
+    animation: node 2000ms infinite;
+}
+.section__mongo{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: mongo 2000ms infinite;
+    -moz-animation: mongo 2000ms infinite;
+    -o-animation: mongo 2000ms infinite;
+    animation: mongo 2000ms infinite;
+}
+.section__json{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: json 2000ms infinite;
+    -moz-animation: json 2000ms infinite;
+    -o-animation: json 2000ms infinite;
+    animation: json 2000ms infinite;
+}
+.section__bem{
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    -webkit-animation: bem 2000ms infinite;
+    -moz-animation: bem 2000ms infinite;
+    -o-animation: bem 2000ms infinite;
+    animation: bem 2000ms infinite;
+}
+  
+  @keyframes html {
+    0% { box-shadow: 0 10px 5px #f67300;  }
+    50% { box-shadow: 0 10px 10px #f67300;  }
+    100% { box-shadow: 0 10px 10px #f67300;  }
+  }
+  @keyframes css {
+    0% { box-shadow: 0 10px 5px #0022f6;;  }
+    50% { box-shadow: 0 10px 10px #0022f6;;  }
+    100% { box-shadow: 0 10px 10px #0022f6;;  }
+  }
+  @keyframes sass {
+    0% { box-shadow: 0 10px 5px #f600d8;  }
+    50% { box-shadow: 0 10px 10px #f600d8;  }
+    100% { box-shadow: 0 10px 10px #f600d8;  }
+  }
+  @keyframes js {
+    0% { box-shadow: 0 10px 5px #ecf600;  }
+    50% { box-shadow: 0 10px 10px #ecf600;  }
+    100% { box-shadow: 0 10px 10px #ecf600;  }
+  }
+  @keyframes jquery {
+    0% { box-shadow: 0 10px 5px #0079f6;  }
+    50% { box-shadow: 0 10px 10px #0079f6;  }
+    100% { box-shadow: 0 10px 10px #0079f6;  }
+  }
+  @keyframes bootstrap {
+    0% { box-shadow: 0 10px 5px rgb(185,62,255);  }
+    50% { box-shadow: 0 10px 10px rgb(185,62,255);  }
+    100% { box-shadow: 0 10px 10px rgb(185,62,255);  }
+  }
+  @keyframes tailwind {
+    0% { box-shadow: 0 10px 5px #00a29b;  }
+    50% { box-shadow: 0 10px 10px #00a29b;  }
+    100% { box-shadow: 0 10px 10px #00a29b;  }
+  }
+  @keyframes react {
+    0% { box-shadow: 0 10px 5px #13fff5;  }
+    50% { box-shadow: 0 10px 10px #13fff5;  }
+    100% { box-shadow: 0 10px 10px #13fff5;  }
+  }
+  @keyframes gulp {
+    0% { box-shadow: 0 10px 5px #ff412d;  }
+    50% { box-shadow: 0 10px 10px #ff412d;  }
+    100% { box-shadow: 0 10px 10px #ff412d;  }
+  }
+  @keyframes git {
+    0% { box-shadow: 0 10px 5px #000f10;  }
+    50% { box-shadow: 0 10px 10px #000f10;  }
+    100% { box-shadow: 0 10px 10px #000f10;  }
+  }
+  @keyframes node {
+    0% { box-shadow: 0 10px 5px #16a000;  }
+    50% { box-shadow: 0 10px 10px #16a000;  }
+    100% { box-shadow: 0 10px 10px #16a000;  }
+  }
+  @keyframes mongo {
+    0% { box-shadow: 0 10px 5px #16a000;  }
+    50% { box-shadow: 0 10px 10px #16a000;  }
+    100% { box-shadow: 0 10px 10px #16a000;  }
+  }
+  @keyframes json {
+    0% { box-shadow: 0 10px 5px #e8ed03;  }
+    50% { box-shadow: 0 10px 10px #e8ed03;  }
+    100% { box-shadow: 0 10px 10px #e8ed03;  }
+  }
+  @keyframes bem {
+    0% { box-shadow: 0 10px 5px #0079f6;  }
+    50% { box-shadow: 0 10px 10px #0079f6;  }
+    100% { box-shadow: 0 10px 10px #0079f6;  }
+  }
+
+  /*  ===============================  Media Query Selectors (MEDIUM) ================================*/
+
+@media screen and (max-width: 1024px){
+    .experience__container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto; 
+    }
+    .experience__content{
+        grid-template-columns: 1fr 1fr;
+        padding: 1rem;
+    }
+  }
+  
+  /*  ===============================  Media Query Selectors (SMALL) ================================*/
+  
+  @media screen and (max-width: 600px){
+    .experience__container{
+        gap: 1rem;
+    }
+    .experience__container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 440px){
+    .experience__content{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+  }

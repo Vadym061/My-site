@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe5e911c.css",
+    "main.js": "/static/js/main.8e590787.js",
+    "static/media/Главная — Venom 2.png": "/static/media/Главная — Venom 2.8d225a27660d3eeeeccd.png",
+    "static/media/Funiro.png": "/static/media/Funiro.d67bbd4187c06b10369a.png",
+    "static/media/TheHam.png": "/static/media/TheHam.31065cf20854715002b7.png",
+    "static/media/Forkio.png": "/static/media/Forkio.f489483bd00224e805ba.png",
+    "static/media/jpg19-bgPrev.png": "/static/media/jpg19-bgPrev.bce0380f6bf19633a78d.png",
+    "static/media/jpg20-removebg-preview.png": "/static/media/jpg20-removebg-preview.83e8e001e62d15a2e24a.png",
+    "static/media/FrontEnd.pdf": "/static/media/FrontEnd.ed57851f4483e1d94ba9.pdf",
+    "index.html": "/index.html",
+    "main.fe5e911c.css.map": "/static/css/main.fe5e911c.css.map",
+    "main.8e590787.js.map": "/static/js/main.8e590787.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe5e911c.css",
+    "static/js/main.8e590787.js"
+  ]
+}
